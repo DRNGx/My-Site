@@ -1,16 +1,22 @@
 .copyright{
     color: #EAF6F6;
     margin-bottom: 0px;
-    position: relative;
-    top: 70px;
-    
     }
 
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+
 .footer-link{
-    color: #11999E;
-    position: relative;
-    top: 40px;
-    margin: 30px;
+    color: #108488;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #EAF6F6;
 }
 
 .h3-ch{
@@ -23,12 +29,12 @@
     padding-top: 100px;
 }
 .mid{
-
+margin: 100px;
 }
 
 .bot{
-    height: 200px;
-background-color: #66BFBF;
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 }
 
 .pro{
@@ -39,6 +45,7 @@ background-color: #66BFBF;
     right: 300px;
     top: 50px;
 }
+
 .bottomcloud{
     position: absolute;
     left: 300px;
@@ -46,7 +53,6 @@ background-color: #66BFBF;
 }
 
 .pb{
-    margin-top: 50px;
     border-radius: 100%;
 }
 
@@ -58,7 +64,6 @@ background-color: #66BFBF;
     width: 50%;
     margin: 50px auto;
     text-align: left;
-    line-height: 2.5;
 
 }
 .startup{
@@ -71,6 +76,39 @@ background-color: #66BFBF;
     width: 15%;
     float: right;
     margin-left: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 50px 0 20px 0;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.cont-msg{
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
 body{
@@ -97,6 +135,7 @@ color: #66BFBF;
 }
 p{
 color: #40514e;
+line-height: 2;
 }
 hr{
 border-style: dotted none none;
@@ -104,4 +143,5 @@ border-width: 6px;
 height: 0px;
 width: 5%;
 border-color: #EAF6F6;
+margin: 100px auto;
 }
